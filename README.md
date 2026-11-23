@@ -4,6 +4,8 @@ Aplicativo desktop para conversar com modelos de linguagem locais. A interface �
 
 > Este projeto está em desenvolvimento. Recursos, compatibilidade e instruções podem mudar. Não há instalador `.exe` nesta versão.
 
+![Tela inicial do GameNext](assets/gamenext-preview.png)
+
 ## Requisitos
 
 - Windows 10 ou 11 (o foco atual de desenvolvimento; outras plataformas não foram verificadas).
