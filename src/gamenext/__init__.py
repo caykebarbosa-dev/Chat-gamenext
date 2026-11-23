@@ -1,0 +1,1 @@
+"""GameNext native desktop application."""

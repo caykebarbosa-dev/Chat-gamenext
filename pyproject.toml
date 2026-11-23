@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamenext"
+version = "0.4.0"
+description = "GameNext — estúdio local de IA, MVP desktop"
+requires-python = ">=3.11"
+dependencies = ["PyQt6>=6.7,<7", "psutil>=6,<8", "faster-whisper>=1.2,<2", "numpy>=1.26,<3", "mcp>=1.20,<2", "httpx>=0.28,<1", "pypdf>=5,<7", "python-docx>=1.1,<2", "beautifulsoup4>=4.12,<5", "keyring>=25,<26", "playwright>=1.50,<2", "Pillow>=11,<13", "jsonschema>=4.23,<5"]
+
+[project.scripts]
+gamenext = "gamenext.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
